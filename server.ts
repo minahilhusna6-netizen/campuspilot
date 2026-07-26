@@ -19,11 +19,7 @@ function getGenAI() {
   }
   return new GoogleGenAI({
     apiKey,
-    httpOptions: {
-      headers: {
-        "User-Agent": "aistudio-build",
-      },
-    },
+    
   });
 }
 
@@ -77,7 +73,7 @@ app.post("/api/gemini/assistant", async (req, res) => {
     }
 
     const response = await ai.models.generateContent({
-      model: "gemini-1.5-flash",
+      model: "gemini-1.5-flash-latest-latest-latest",
       contents,
       config: {
         systemInstruction,
@@ -127,7 +123,7 @@ app.post("/api/gemini/document-assistant", async (req, res) => {
     else prompt = `Analyze and extract important key terms and formulas from:\n\n${content}`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-1.5-flash",
+      model: "gemini-1.5-flash-latest-latest-latest",
       contents: prompt,
     });
 
@@ -167,7 +163,7 @@ Return JSON with structure:
 }`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-1.5-flash",
+      model: "gemini-1.5-flash-latest-latest-latest",
       contents: prompt,
       config: {
         responseMimeType: "application/json",
@@ -219,7 +215,7 @@ Return JSON format:
 }`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-1.5-flash",
+      model: "gemini-1.5-flash-latest-latest-latest",
       contents: prompt,
       config: { responseMimeType: "application/json" },
     });
@@ -261,7 +257,7 @@ Generate JSON with fields:
 }`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-1.5-flash",
+      model: "gemini-1.5-flash-latest-latest-latest",
       contents: prompt,
       config: { responseMimeType: "application/json" },
     });
@@ -304,7 +300,7 @@ app.post("/api/gemini/ocr-scan", async (req, res) => {
     };
 
     const response = await ai.models.generateContent({
-      model: "gemini-1.5-flash",
+      model: "gemini-1.5-flash-latest-latest-latest",
       contents: { parts: [imagePart, textPart] },
       config: { responseMimeType: "application/json" }
     });
