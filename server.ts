@@ -77,7 +77,7 @@ app.post("/api/gemini/assistant", async (req, res) => {
     }
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       contents,
       config: {
         systemInstruction,
@@ -127,7 +127,7 @@ app.post("/api/gemini/document-assistant", async (req, res) => {
     else prompt = `Analyze and extract important key terms and formulas from:\n\n${content}`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       contents: prompt,
     });
 
@@ -167,7 +167,7 @@ Return JSON with structure:
 }`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       contents: prompt,
       config: {
         responseMimeType: "application/json",
@@ -219,7 +219,7 @@ Return JSON format:
 }`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       contents: prompt,
       config: { responseMimeType: "application/json" },
     });
@@ -261,7 +261,7 @@ Generate JSON with fields:
 }`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       contents: prompt,
       config: { responseMimeType: "application/json" },
     });
@@ -304,7 +304,7 @@ app.post("/api/gemini/ocr-scan", async (req, res) => {
     };
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       contents: { parts: [imagePart, textPart] },
       config: { responseMimeType: "application/json" }
     });
