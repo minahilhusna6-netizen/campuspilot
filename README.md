@@ -186,17 +186,6 @@ CampusPilot/
 
 ---
 
-## 📸 Screenshots
-
-| Dashboard Overview | AI Study Assistant |
-| :---: | :---: |
-| ![Dashboard Screenshot](https://via.placeholder.com/600x350/0A0A0B/FFFFFF?text=CampusPilot+Dashboard+Overview) | ![AI Tutor Screenshot](https://via.placeholder.com/600x350/0A0A0B/FFFFFF?text=AI+Study+Assistant+Tutor) |
-
-| Assignment & Exam Planner | Mobile & Dark Mode Layout |
-| :---: | :---: |
-| ![Assignments Screenshot](https://via.placeholder.com/600x350/0A0A0B/FFFFFF?text=Assignment+Manager+%26+Exam+Hub) | ![Mobile Layout Screenshot](https://via.placeholder.com/600x350/0A0A0B/FFFFFF?text=Mobile+Responsive+%26+Dark+Mode) |
-
----
 
 ## 🔮 Future Improvements
 
