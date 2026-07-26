@@ -27,7 +27,6 @@
 ## 🔗 Live Demo & Links
 
 - 🌐 **Live Application Website:** [https://campuspilot-tau.vercel.app](https://campuspilot-tau.vercel.app)
-- 💻 **GitHub Repository:** [https://github.com/zainabnadeem/CampusPilot](https://github.com/zainabnadeem/CampusPilot) *(Replace with your repository link)*
 
 ---
 
@@ -216,15 +215,4 @@ The application is hosted and deployed live on **Vercel**:
 
 ---
 
-## 👤 Author
 
-**Zainab Nadeem**  
-*University Final Project*  
-- 💼 **GitHub:** [@zainabnadeem](https://github.com/zainabnadeem)
-- 🌐 **Live App:** [https://campuspilot-tau.vercel.app](https://campuspilot-tau.vercel.app)
-
----
-
-<p center="align">
-  <i>Made with ❤️ for university students worldwide. If you find CampusPilot helpful, please give this repository a ⭐️!</i>
-</p>
