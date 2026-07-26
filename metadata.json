@@ -1,0 +1,6 @@
+{
+  "name": "CampusPilot",
+  "description": "AI-powered student productivity platform for academics, study materials, exam prep, and smart planning.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
